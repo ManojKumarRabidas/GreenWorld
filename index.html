@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green World</title>
+    <style>
+        body {
+            color: aliceblue;
+            background-image: url('image2.jpg');
+
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 43px;
+            top: 29px;
+
+
+        }
+
+        .mid {
+            border: 2px;
+            background-color: #4c9d73;
+            display: block;
+            width: 40%;
+            margin: 29px auto;
+        }
+
+        .right {
+            /* border: 2px solid rgb(62, 76, 202); */
+            display: inline-block;
+            position: absolute;
+            right: 43px;
+            top: 29px;
+        }
+
+        .left img {
+            height: 23px;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 23px;
+            /* padding: 10px; */
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: aliceblue;
+            padding: 8px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: cornflowerblue;
+            text-decoration: underline;
+        }
+
+        .btn {
+            background-color: #366c18;
+            color: aliceblue;
+            font-size: 16px;
+            border-radius: 11px;
+            margin: 2px;
+        }
+        .btn:hover{
+            background-color: #4e9428;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .container{
+            border-radius: 8px;
+            display: inline block;
+            border: 5px solid #00ff7b;
+            margin: 50px 100px;
+            padding: 34px;
+            width: 50%;
+        }
+        .formel input{
+            display: block;
+            width: 555px;
+            text-align: center;
+            margin: 5px auto;
+            padding: 10px;
+            border: 2px solid blueviolet;
+            border-radius: 8px;
+        }
+        .btn2{
+            display: block;
+            width: 70%;
+            margin: 18px auto;
+            font-size: 20px;
+            border-radius: 10px;
+            background-color: #4e9428;
+        }
+        .container h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+            text-shadow: rgb(95, 95, 216);
+        }
+        .pic2 img{
+            border: 4px solid blueviolet;
+            border-radius: 4px;
+            height: 350px;
+            display: inline-block;
+            position: absolute;
+            top: 120px;
+            right: 90px;
+        }
+        .foun{
+            display: inline-block;
+            position: absolute;
+            top:480px;
+            right: 83px;
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="image1.jpg" alt="">
+            <div>Green World</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Green World</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Create Account</button>
+            <button class="btn">Log In</button>
+            <button class="btn">Log Out</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>Welcome to Our Program to make the World Green</h2>
+        <form action="noaction.php">
+            <div class="formel">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="formel">
+                <input type="number" placeholder="Enter your age">
+            </div>
+            <div class="formel">
+                <input type="text" placeholder="Enter your address">
+            </div>
+            <div class="formel">
+                <input type="number" placeholder="Enter your phone number">
+            </div>
+            <div class="formel">
+                <input type="email" placeholder="Enter your Email">
+            </div>
+        </form>
+        <button class="btn2">Submit</button>
+        <div></div>
+    </div>
+    <div class="pic2">
+        <img src="myPic1.jpeg" alt="">
+        <div class="foun">
+        Founder-Manoj Kumar
+        </div>
+    </div>
+</body>
+
+</html>
